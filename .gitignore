@@ -1,0 +1,11 @@
+*.cs
+*.dll
+*.sln
+*.csproj
+*.suo
+*.sw?
+bin
+Debug
+Release
+examples
+TestResult.xml

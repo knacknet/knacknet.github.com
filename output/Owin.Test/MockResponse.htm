@@ -1,0 +1,408 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>MockResponse - OWIN Documentation</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link type="text/css" rel="stylesheet" href="../main.css"/>
+  </head>
+  <body><div id="namespaces">
+	<h2 class="fixed">Namespaces</h2>
+	<div class="scroll">
+		<ul><li>
+          <a href="../Owin/index.htm">Owin</a>
+      </li><li>
+          <a href="../Owin.Handlers/index.htm">Owin.Handlers</a>
+      </li><li>
+          <a href="../Owin.Test/index.htm" class="current">Owin.Test</a>
+      </li><li>
+          <a href="../System.Runtime.CompilerServices/index.htm">System.Runtime.CompilerServices</a>
+      </li>
+		</ul>
+	</div>
+</div><div id="types">
+	<h2 class="fixed">Types</h2>
+	<div class="scroll">
+		<ul><li>
+            <a href="../Owin.Test/MockRequest.htm">MockRequest</a>
+        </li><li>
+            <a href="../Owin.Test/MockResponse.htm" class="current">MockResponse</a>
+        </li><li>
+            <a href="../Owin.Test/MockSession.htm">MockSession</a>
+        </li>
+		</ul>
+	</div>
+</div>
+    <div class="header">
+		<p class="class"><strong>Type</strong> MockResponse</p>
+		<p><strong>Namespace</strong> Owin.Test</p><p><strong>Parent</strong> <a href="../Owin/Response.htm">Response</a></p>
+	</div>
+    <div class="sub-header">
+
+
+			<h3 class="section">Methods</h3>
+			<ul><li><a href="#AddHeader" class="type">AddHeader</a></li><li><a href="#AddHeader" class="type">AddHeader</a></li><li><a href="#AddToBody" class="type">AddToBody</a></li><li><a href="#Clear" class="type">Clear</a></li><li><a href="#Equals" class="type">Equals</a></li><li><a href="#GetBody" class="type">GetBody</a></li><li><a href="#GetHashCode" class="type">GetHashCode</a></li><li><a href="#GetHeader" class="type">GetHeader</a></li><li><a href="#GetType" class="type">GetType</a></li><li><a href="#Redirect" class="type">Redirect</a></li><li><a href="#Redirect" class="type">Redirect</a></li><li><a href="#SetBody" class="type">SetBody</a></li><li><a href="#SetHeader" class="type">SetHeader</a></li><li><a href="#SetHeader" class="type">SetHeader</a></li><li><a href="#SetStatus" class="type">SetStatus</a></li><li><a href="#SetStatus" class="type">SetStatus</a></li><li><a href="#ToString" class="type">ToString</a></li><li><a href="#Write" class="type">Write</a></li><li><a href="#Write" class="type">Write</a></li>
+			</ul>
+
+			<h3 class="section">Properties</h3>
+			<ul><li><a href="#Body" class="type">Body</a></li><li><a href="#BodyText" class="type">BodyText</a></li><li><a href="#ContentLength" class="type">ContentLength</a></li><li><a href="#ContentType" class="type">ContentType</a></li><li><a href="#Headers" class="type">Headers</a></li><li><a href="#Status" class="type">Status</a></li><li><a href="#StatusCode" class="type">StatusCode</a></li><li><a href="#StatusMessage" class="type">StatusMessage</a></li>
+			</ul>
+
+	</div>
+
+
+	<h3 class="section">Public instance methods</h3>
+<div id="AddHeader" class="method">
+		<h4>Response <strong>AddHeader</strong>(string key, IEnumerable&lt;string&gt; value)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> key</code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.Collections.Generic.IEnumerable<string>">IEnumerable&lt;string&gt;</span> value</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="AddHeader" class="method">
+		<h4>Response <strong>AddHeader</strong>(string key, string value)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> key</code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> value</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="AddToBody" class="method">
+		<h4>Response <strong>AddToBody</strong>(Object[] objects)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.Object[]">Object[]</span> objects</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="Clear" class="method">
+		<h4>void <strong>Clear</strong>()</h4>
+		<div class="content">
+			
+			<table>
+			</table>
+		</div>
+	</div><div id="Equals" class="method">
+		<h4>bool <strong>Equals</strong>(object obj)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <span title="System.bool">bool</span></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.object">object</span> obj</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="GetBody" class="method">
+		<h4>IEnumerable&lt;object&gt; <strong>GetBody</strong>()</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <span title="System.Collections.Generic.IEnumerable<object>">IEnumerable&lt;object&gt;</span></code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="GetHashCode" class="method">
+		<h4>int <strong>GetHashCode</strong>()</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <span title="System.int">int</span></code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="GetHeader" class="method">
+		<h4>string <strong>GetHeader</strong>(string key)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <span title="System.string">string</span></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> key</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="GetType" class="method">
+		<h4>Type <strong>GetType</strong>()</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <span title="System.Type">Type</span></code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="Redirect" class="method">
+		<h4>Response <strong>Redirect</strong>(int statusCode, string location)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.int">int</span> statusCode</code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> location</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="Redirect" class="method">
+		<h4>Response <strong>Redirect</strong>(string location)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> location</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="SetBody" class="method">
+		<h4>Response <strong>SetBody</strong>(Object[] objects)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.Object[]">Object[]</span> objects</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="SetHeader" class="method">
+		<h4>Response <strong>SetHeader</strong>(string key, string value)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> key</code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> value</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="SetHeader" class="method">
+		<h4>Response <strong>SetHeader</strong>(string key, IEnumerable&lt;string&gt; value)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> key</code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.Collections.Generic.IEnumerable<string>">IEnumerable&lt;string&gt;</span> value</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="SetStatus" class="method">
+		<h4>Response <strong>SetStatus</strong>(string status)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> status</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="SetStatus" class="method">
+		<h4>Response <strong>SetStatus</strong>(int statusCode)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.int">int</span> statusCode</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="ToString" class="method">
+		<h4>string <strong>ToString</strong>()</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <span title="System.string">string</span></code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="Write" class="method">
+		<h4>Response <strong>Write</strong>(string writeToBody)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> writeToBody</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div><div id="Write" class="method">
+		<h4>Response <strong>Write</strong>(string writeToBody, Object[] objects)</h4>
+		<div class="content">
+			
+			<table><tr>
+					<td><code>return <a href="../Owin/Response.htm">Response</a></code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.string">string</span> writeToBody</code></td>
+					<td></td>
+				</tr><tr>
+					<td><code><span title="System.Object[]">Object[]</span> objects</code></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+
+  <h3 class="section">Public properties</h3>
+<div id="Body" class="method">
+    <h4>IEnumerable&lt;object&gt; <strong>Body</strong> get; set;</h4>
+    <div class="content">
+      
+      <table>
+        <tr>
+          <td>
+            <code>return <span title="System.Collections.Generic.IEnumerable<object>">IEnumerable&lt;object&gt;</span></code>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div><div id="BodyText" class="method">
+    <h4>string <strong>BodyText</strong> get; set;</h4>
+    <div class="content">
+      
+      <table>
+        <tr>
+          <td>
+            <code>return <span title="System.string">string</span></code>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div><div id="ContentLength" class="method">
+    <h4>int <strong>ContentLength</strong> get; set;</h4>
+    <div class="content">
+      
+      <table>
+        <tr>
+          <td>
+            <code>return <span title="System.int">int</span></code>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div><div id="ContentType" class="method">
+    <h4>string <strong>ContentType</strong> get; set;</h4>
+    <div class="content">
+      
+      <table>
+        <tr>
+          <td>
+            <code>return <span title="System.string">string</span></code>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div><div id="Headers" class="method">
+    <h4>IDictionary&lt;string, IEnumerable&lt;string&gt;&gt; <strong>Headers</strong> get; set;</h4>
+    <div class="content">
+      
+      <table>
+        <tr>
+          <td>
+            <code>return <span title="System.Collections.Generic.IDictionary<string, IEnumerable<string>>">IDictionary&lt;string, IEnumerable&lt;string&gt;&gt;</span></code>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div><div id="Status" class="method">
+    <h4>string <strong>Status</strong> get; set;</h4>
+    <div class="content">
+      
+      <table>
+        <tr>
+          <td>
+            <code>return <span title="System.string">string</span></code>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div><div id="StatusCode" class="method">
+    <h4>int <strong>StatusCode</strong> get; </h4>
+    <div class="content">
+      
+      <table>
+        <tr>
+          <td>
+            <code>return <span title="System.int">int</span></code>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div><div id="StatusMessage" class="method">
+    <h4>string <strong>StatusMessage</strong> get; </h4>
+    <div class="content">
+      
+      <table>
+        <tr>
+          <td>
+            <code>return <span title="System.string">string</span></code>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+<div id="footer">
+  <p>Based on v0.1.0.0 of OWIN</p>
+  <p>Generated by <a href="http://docu.jagregory.com">docu</a></p>
+</div>
+  </body>
+</html>
